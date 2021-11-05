@@ -8,7 +8,8 @@ public class Test1 {
 
     public static double basicCalculator(final Operation operation, final int num1, final int num2){
         double result = 0;
-
+	
+	//used if-else statements
 	if (operation == Operation.ADD) {
 		result = num1 + num2;
 		
@@ -26,7 +27,7 @@ public class Test1 {
 	}
 	
 	return result;
-
+	
     }
 
     public static void main(final String[] args) {
